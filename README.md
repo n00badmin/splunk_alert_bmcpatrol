@@ -7,8 +7,8 @@ The msend binary would be required on the splunk server running the alert action
 
 TO DO:
 
-design the type of searches best used to pass to msend
+-design the type of Splunk searches best used to pass results to msend
 
-design and complete python scipt to parse json payload from splunk and trigger msend
+-design and complete python scipt to parse json payload from splunk and trigger msend
 
-complete setup.xml to allow setting of the msend destination address 
+-complete setup.xml to allow setting of the msend destination address 
