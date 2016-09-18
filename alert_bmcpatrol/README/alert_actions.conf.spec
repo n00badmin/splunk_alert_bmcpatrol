@@ -4,3 +4,6 @@ param.message = <string>
 
 param.severity = <string>
 #sets the severity of the event (ie. CRITICAL )
+
+param.team = <string>
+#Sets the team to engage to action the event (ie. OPS )
