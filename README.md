@@ -1,8 +1,8 @@
 # splunk_alert_bmcpatrol
-Splunk modular alert to BMC Patrol
-
 Splunk modular alert to BMC Patrol will send alerts leveraging the msend command. 
-#https://docs.bmc.com/docs/display/public/btsim96/mposter+and+msend+syntax
+
+https://docs.bmc.com/docs/display/public/btsim96/mposter+and+msend+syntax
+
 The msend binary would be required on the splunk server running the alert action. 
 
 TO DO:
