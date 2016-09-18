@@ -1,0 +1,17 @@
+<setup>
+    <block title="BMC Patrol Alert Action">
+        <text>Configure the MSEND destination IP and Port Number</text>
+    </block>
+
+    <block title="Server" endpoint="admin/alert_actions" entity="bmcPatrol">
+        <input field="param.bmcPatrolTarget">
+            <label>BMC Patrol Target URI</label>
+            <type>text</type>
+        </input>
+        <text><![CDATA[
+        Consult your local BMC Patrol Admins
+        ]]></text>
+    </block>
+
+</setup>
+
