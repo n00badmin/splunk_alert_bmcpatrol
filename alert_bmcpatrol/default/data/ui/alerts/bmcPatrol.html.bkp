@@ -1,0 +1,23 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="bmcPatrol_message">Message</label>
+
+        <div class="controls">
+            <input type="text" name="action.bmcPatrol.param.message" id="bmcPatrol_message" placeholder="e.g. hello world!!!" />
+            <span class="help-block">The message to write into a log</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="bmcPatrol_severity">Severity</label>
+
+        <div class="controls">
+            <select name="action.bmcPatrol.param.severity" id="bmcPatrol_severity" >
+			  <option value="LOW">Low</option>
+			  <option value="MEDIUM">Medium</option>
+			  <option value="HIGH">High</option>
+			  <option value="CRITICAL">Critical</option>
+			</select>
+            <span class="help-block">The severity of the message</span>
+        </div>
+    </div>
+</form>

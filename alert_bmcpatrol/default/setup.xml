@@ -1,6 +1,6 @@
 <setup>
     <block title="BMC Patrol Alert Action">
-        <text>Configure the MSEND destination IP and Port Number</text>
+        <text>Configure the MSEND destination hostname and Port Number - ie. foo.domain.com:1830</text>
     </block>
 
     <block title="Server" endpoint="admin/alert_actions" entity="bmcPatrol">
