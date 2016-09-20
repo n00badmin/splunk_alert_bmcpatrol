@@ -15,6 +15,7 @@ SCRIPTED ALERT ACTION:
     -design and complete python scipt to parse json payload from splunk and trigger msend
 
 UI:
+
     -complete setup.xml to allow setting of the msend destination address & port
     -complete bmcPatrol.html 
 
