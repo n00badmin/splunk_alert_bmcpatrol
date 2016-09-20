@@ -7,19 +7,36 @@ The msend binary would be required on the splunk server running the alert action
 
 TO DO:
 
-SAMPLE ALERTS
+    -CREATE SAMPLE ALERTS
+    -will use DMC alerts as the intial test alert searches
 
--will use DMC alerts as the intial test alert searches
+SCRIPTED ALERT ACTION:
 
-SCRIPTED ALERT ACTION
+    -bmcPatrol.py to parse json payload from splunk and trigger msend
 
--design and complete python scipt to parse json payload from splunk and trigger msend
+UI:
 
-UI
-
--complete setup.xml to allow setting of the msend destination address & port
-
--complete alert action user inputs
+    -complete setup.xml to allow setting of the msend destination address & port
+    -complete bmcPatrol.html 
 
 
 
+```alert_bmcpatrol/
+├── appserver
+│   └── static
+│       └── bmc.png
+├── bin
+│   ├── bmcPatrol.py
+│   └── bmcPatrol.py.bkp
+├── default
+│   ├── alert_actions.conf
+│   ├── app.conf
+│   ├── data
+│   │   └── ui
+│   │       └── alerts
+│   │           └── bmcPatrol.html
+│   └── setup.xml
+├── metadata
+│   └── default.meta
+└── README
+    └── alert_actions.conf.spec
