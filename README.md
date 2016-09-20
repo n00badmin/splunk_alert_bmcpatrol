@@ -7,12 +7,12 @@ The msend binary would be required on the splunk server running the alert action
 
 TO DO:
 
-    -SAMPLE ALERTS
+    -CREATE SAMPLE ALERTS
     -will use DMC alerts as the intial test alert searches
 
 SCRIPTED ALERT ACTION:
 
-    -design and complete python scipt to parse json payload from splunk and trigger msend
+    -bmcPatrol.py to parse json payload from splunk and trigger msend
 
 UI:
 
