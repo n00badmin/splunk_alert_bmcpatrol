@@ -23,3 +23,22 @@ UI
 
 
 
+alert_bmcpatrol/
+├── appserver
+│   └── static
+│       └── bmc.png
+├── bin
+│   ├── bmcPatrol.py
+│   └── bmcPatrol.py.bkp
+├── default
+│   ├── alert_actions.conf
+│   ├── app.conf
+│   ├── data
+│   │   └── ui
+│   │       └── alerts
+│   │           └── bmcPatrol.html
+│   └── setup.xml
+├── metadata
+│   └── default.meta
+└── README
+    └── alert_actions.conf.spec
