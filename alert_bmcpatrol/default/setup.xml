@@ -1,15 +1,15 @@
 <setup>
     <block title="BMC Patrol Alert Action">
-        <text>Configure the MSEND destination hostname and Port Number - ie. foo.domain.com:1830</text>
+        <text>Configure the MSEND destination hostname and Port Number</text>
     </block>
 
     <block title="Server" endpoint="admin/alert_actions" entity="bmcPatrol">
-        <input field="param.bmcPatrolTarget">
+        <input field="param.targetURI">
             <label>BMC Patrol Target URI</label>
             <type>text</type>
         </input>
         <text><![CDATA[
-        Consult your local BMC Patrol Admins
+        Consult your local BMC Patrol Admin for ip:port or host:port
         ]]></text>
     </block>
 
