@@ -23,7 +23,7 @@ UI
 
 
 
-alert_bmcpatrol/
+```alert_bmcpatrol/
 ├── appserver
 │   └── static
 │       └── bmc.png
@@ -41,4 +41,4 @@ alert_bmcpatrol/
 ├── metadata
 │   └── default.meta
 └── README
-    └── alert_actions.conf.spec
+    └── alert_actions.conf.spec```
