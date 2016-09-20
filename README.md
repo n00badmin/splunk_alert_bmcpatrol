@@ -19,7 +19,7 @@ UI
 
 -complete setup.xml to allow setting of the msend destination address & port
 
--complete alert action user inputs
+-complete bmcPatrol.html 
 
 
 
