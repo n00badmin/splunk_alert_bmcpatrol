@@ -41,4 +41,4 @@ UI
 ├── metadata
 │   └── default.meta
 └── README
-    └── alert_actions.conf.spec```
+    └── alert_actions.conf.spec
