@@ -37,8 +37,10 @@ def main():
     #use contents of body to dynamically populate, then execute the MSEND CLI command
     msendcmd = 'msend -n @{0}#mc -a EVENT -r "{1}" -m "{2}" -b "mc_host={3};mc_tool_class=SPLUNK-ENTERPRISE;mc_object=;mc_object_owner={4};mc_tool={5};mc_tool_uri={6}"'
     msendcmd = msendcmd.format(bmcPatrolTargetURI, severity, message, splunkServer, team, splunkSearch, resultsLink)
-    ps = open("/tmp/bmc.out","w")
-    ps.write("msendcmd = " + msendcmd + "\n")
+    
+    #UNCOMMENT DEBUG
+    #ps = open("/tmp/bmc.out","w")
+    #ps.write("msendcmd = " + msendcmd + "\n")
 
     try:
         msend = subprocess.check_output(msendcmd, shell=True)
