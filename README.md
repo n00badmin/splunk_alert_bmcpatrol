@@ -1,23 +1,10 @@
 # splunk_alert_bmcpatrol
-Splunk modular alert to BMC Patrol will send alerts leveraging the msend command. 
+
+Splunk Alert Action to trigger events to BMC Patrol using the msend command
+
+The msend binary would be required on the splunk server running the alert action. (ie. Search Head)
 
 https://docs.bmc.com/docs/display/public/btsim96/mposter+and+msend+syntax
-
-The msend binary would be required on the splunk server running the alert action. 
-
-TO DO:
-
-    -CREATE SAMPLE ALERTS
-    -will use DMC alerts as the intial test alert searches
-
-SCRIPTED ALERT ACTION:
-
-    -bmcPatrol.py to parse json payload from splunk and trigger msend
-
-UI:
-
-    -complete setup.xml to allow setting of the msend destination address & port
-    -complete bmcPatrol.html 
 
 
 
