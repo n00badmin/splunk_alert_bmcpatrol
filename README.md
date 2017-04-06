@@ -13,8 +13,8 @@ https://docs.bmc.com/docs/display/public/btsim96/mposter+and+msend+syntax
 │   └── static
 │       └── bmc.png
 ├── bin
-│   ├── bmcPatrol.py
-│   └── bmcPatrol.py.bkp
+│   └── bmcPatrol.py
+│   
 ├── default
 │   ├── alert_actions.conf
 │   ├── app.conf
